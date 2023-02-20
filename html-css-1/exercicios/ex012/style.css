@@ -1,0 +1,21 @@
+@charset "UTF-8"
+
+
+body{
+    background-color: lightcyan;
+    color: chocolate;
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+h1{
+    color: red;
+}
+
+a{
+    color: brown;
+    text-decoration: none;
+}
+p{
+    text-align:justify;
+}

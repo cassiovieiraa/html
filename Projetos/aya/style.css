@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'circua';
+    src: url(fonts/Cirqua.ttf) format('truetype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#D9D0A3, #F2F1DF);
+}
+
+header{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+nav{
+    text-align: center;
+    background-color: white;
+    padding: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+
+}
+nav > a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+section{
+   border-radius: 20px 0px;
+   box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.473);
+}
+article{
+    background-color: #F2F1DF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+article > h2{
+    margin: 0px;
+}
+#historia{
+    background-color: white;
+    height: auto;
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+
+#tratamentos{
+    background-color: white;
+    height: auto;
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+
+#contato{
+    background-color: white;
+    height: auto;
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+h1{
+font-family: 'circua', serif;
+text-align: center;
+font-size: 3em;
+color:lightcyan;
+
+        
+}
+
+footer{
+    text-align: center;
+    background-color: #D9D0A3;
+    height: auto;
+    padding: 5px;
+    margin: 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+}
+footer > p{
+    margin: 0px;
+}
+
+img{
+    border-radius: 50%
+}
+
+

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #84E0AD;
+
+}
+main{
+    min-width: 400px;
+    max-width: 800px;
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient( to bottom,#3DDA83, #39BF68, #22733F );
+    padding: 40px;
+    margin: -8px -8px 10px -8px;
+}
+h1{
+    font-family: 'Bebas Neue';
+}
+section{
+    text-align: justify;
+    background-color: white;
+    width: 800px;
+    margin: -10px 540px;
+    padding: 1px 10px;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 46%);
+}
+
+h2{
+    font-family: 'idroid';
+    color:#22733F ;
+}
+h3{
+    font-family: 'idroid';
+    color: #22733F;
+    background-image: linear-gradient(to right, #54db83, white);
+}
+nav{
+    text-align:left;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+nav > a{
+    
+    margin-right: 40px;
+    margin-bottom: -10px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menu{
+    margin-bottom: -30px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    line-height: 1.2em;
+}
+div{
+    background-color: #c5f7dbd5;
+    padding: 4px 4px;
+    margin: -22px 0px -0px 0px;
+    border-radius:0px 0px 5px 5px ;
+}
+h4{
+    text-align: start;
+    color: white;
+    background-color: #39BF68;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+strong{
+    color:#39BF68
+}
+.yt{
+    background-color: #22733F;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin: -10px -10px;
+
+}
+footer{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    background-color: #22733F;
+}
+footer > p{
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+}
+footer > p > strong{
+    color: white;
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+}
+.class{
+    display: block;
+    background-color: #22733F;
+}
