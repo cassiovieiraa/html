@@ -41,3 +41,20 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+
+section#rsociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.247);
+    box-sizing: border-box;
+
+}
+
+section#rsociais img:hover{
+    border: 2px solid rgba(211, 211, 211, 0.473);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    transition: transform .3s;
+
+}
